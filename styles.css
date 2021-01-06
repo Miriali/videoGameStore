@@ -2,10 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
-/*Variables snd general Styles*/
+/*Variables and general Styles*/
 :root {
     --main-font: 'Noto Sans', sans-serif;
     --second-font: 'Roboto', sans-serif;
+    --white-color: #fff;
+    --black-color: #222;
+    --dark-black-color: #111;
+    --main-color: #1E004E;
+    --turquesa: rgb(38,245,201);
+    --hover-color: tomato;
+    --facebook-color: #2E406E;
+    --instagram-color:  rgb(217,66,135);
+    --twitter-color: #339DC5;
+    --pinterest: #E83028;
 }
 
 * {
@@ -32,22 +42,22 @@ h5 {
 
 /*Navbar*/
 .navbar {
-    background-color: #1E004E;
+    background-color: var(--main-color);
 }
 
 /*Ofertas*/
 .ofertas {
     border-radius: 20px 0 20px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.32), 0 1px 2px rgba(0,0,0,0.34);
-    background-color: #fff;
+    background-color: var(--white-color);
 }
 
 .icon-oferta {
-    background-color: rgb(38,245,201);
+    background-color: var(--turquesa);
     padding: .5rem;
     margin-bottom: .7rem;
     border-radius: 10px;
-    color: #222;
+    color: var(--black-color);
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
@@ -56,7 +66,7 @@ h5 {
     padding: .5rem;
     margin-bottom: .7rem;
     border-radius: 10px;
-    color: #222;
+    color: var(--black-color);
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
@@ -65,7 +75,7 @@ h5 {
     padding: .5rem;
     margin-bottom: .7rem;
     border-radius: 10px;
-    color: #222;
+    color: var(--black-color);
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
@@ -74,7 +84,7 @@ h5 {
     padding: .5rem;
     margin-bottom: .7rem;
     border-radius: 10px;
-    color: #222;
+    color: var(--black-color);
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
@@ -83,16 +93,16 @@ h5 {
 }
 
 .oferta:hover {
-    color: tomato;
+    color: var(--hover-color);
     cursor: pointer;
 }
 
 /*New Arrivals*/
 .card-text {
-    background-color: #111;
+    background-color: var(--dark-black-color);
     text-align: left;
     padding: .5rem;
-    color: #fff;
+    color: var(--white-color);
     font-family: var(--second-font);
     font-weight: 100;
 }
@@ -100,14 +110,14 @@ h5 {
 /*Search Section*/
 .box-search {
     border-radius: 25px;
-    background-color: #1E004E;
+    background-color: var(--main-color);
 }
 
 
 /*Best Sellers*/
 .game p {
     font-weight: 400;
-    background-color: rgb(38,245,201);
+    background-color: var(--turquesa);
 }
 
 /*Follow Us*/
@@ -116,37 +126,37 @@ h5 {
 }
 
 .icons .facebook {
-    background-color: #2E406E;
+    background-color: var(--facebook-color);
     font-size: 2rem;
     padding: .8rem 1.2rem;
-    color: #fff;
+    color: var(--white-color);
     margin: 1rem;
     border-radius: 25%;
 }
 
 .icons .instagram {
-    background-color: rgb(217,66,135);
+    background-color: var(--instagram-color);
     font-size: 2rem;
     padding: .8rem 1.2rem;
-    color: #fff;
+    color: var(--white-color);
     margin: 1rem;
     border-radius: 25%;
 }
 
 .icons .twitter {
-    background-color: #339DC5;
+    background-color: var(--twitter-color);
     font-size: 2rem;
     padding: .8rem 1.2rem;
-    color: #fff;
+    color: var(--white-color);
     margin: 1rem;
     border-radius: 25%;
 }
 
 .icons .pinterest {
-    background-color: #E83028;
+    background-color: var(--pinterest);
     font-size: 2rem;
     padding: .8rem 1.2rem;
-    color: #fff;
+    color: var(--white-color);
     margin: 1rem;
     border-radius: 25%;
 }
@@ -155,8 +165,8 @@ h5 {
 .facebook:hover,
 .twitter:hover,
 .instagram:hover {
-    background-color: #fff;
-    color: tomato;
+    background-color: var(--white-color);
+    color: var(--hover-color);
     cursor: pointer;
 }
 
@@ -164,7 +174,7 @@ h5 {
 .copyright {
     display: flex;
     justify-content: center;
-    background-color: #1E004E;
+    background-color: var(--main-color);
     margin-top: 3rem;
     text-align: center;  
 }
@@ -178,7 +188,7 @@ h5 {
 .brand {
     font-weight: 400;
     font-size: 1rem;
-    background-color: #1E004E;
+    background-color: var(--main-color);
     padding: .4rem;
 }
 
