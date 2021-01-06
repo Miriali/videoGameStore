@@ -1,0 +1,280 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/*Variables snd general Styles*/
+:root {
+    --main-font: 'Noto Sans', sans-serif;;
+    --second-font: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font);
+    font-size: 16px;
+}
+
+body {
+    background: #c31432;
+    background: -webkit-linear-gradient(to bottom, #240b36, #c31432);
+    background: linear-gradient(to bottom, #240b36, #c31432);
+}
+
+h5 {
+    padding-top: 1rem;
+}
+
+.title {
+    border-radius: 20px 0 20px;
+}
+
+/*Navbar*/
+.navbar {
+    background-color: #1E004E;
+}
+
+/*Ofertas*/
+.ofertas {
+    border-radius: 20px 0 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.32), 0 1px 2px rgba(0,0,0,0.34);
+    background-color: #fff;
+}
+
+.icon-oferta {
+    background-color: rgb(38,245,201);
+    padding: .5rem;
+    margin-bottom: .7rem;
+    border-radius: 10px;
+    color: #222;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.icon-flash {
+    background-color: rgb(252,131,176);
+    padding: .5rem;
+    margin-bottom: .7rem;
+    border-radius: 10px;
+    color: #222;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.icon-game {
+    background-color: rgb(108,200,255);
+    padding: .5rem;
+    margin-bottom: .7rem;
+    border-radius: 10px;
+    color: #222;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.icon-gift {
+    background-color: rgb(254,199,254);
+    padding: .5rem;
+    margin-bottom: .7rem;
+    border-radius: 10px;
+    color: #222;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.oferta p {
+    font-weight: bold;
+}
+
+.oferta:hover {
+    color: tomato;
+    cursor: pointer;
+}
+
+/*New Arrivals*/
+.card-text {
+    background-color: #111;
+    text-align: left;
+    padding: .5rem;
+    color: #fff;
+    font-family: var(--second-font);
+    font-weight: 100;
+}
+
+/*Search Section*/
+.box-search {
+    border-radius: 25px;
+    background-color: #1E004E;
+}
+
+
+/*Best Sellers*/
+.game p {
+    font-weight: 400;
+    background-color: rgb(38,245,201);
+}
+
+/*Follow Us*/
+.icons {
+    margin-top: 4rem;
+}
+
+.icons .facebook {
+    background-color: #2E406E;
+    font-size: 2rem;
+    padding: .8rem 1.2rem;
+    color: #fff;
+    margin: 1rem;
+    border-radius: 25%;
+}
+
+.icons .instagram {
+    background-color: rgb(217,66,135);
+    font-size: 2rem;
+    padding: .8rem 1.2rem;
+    color: #fff;
+    margin: 1rem;
+    border-radius: 25%;
+}
+
+.icons .twitter {
+    background-color: #339DC5;
+    font-size: 2rem;
+    padding: .8rem 1.2rem;
+    color: #fff;
+    margin: 1rem;
+    border-radius: 25%;
+}
+
+.icons .pinterest {
+    background-color: #E83028;
+    font-size: 2rem;
+    padding: .8rem 1.2rem;
+    color: #fff;
+    margin: 1rem;
+    border-radius: 25%;
+}
+
+.pinterest:hover,
+.facebook:hover,
+.twitter:hover,
+.instagram:hover {
+    background-color: #fff;
+    color: tomato;
+    cursor: pointer;
+}
+
+/*Footer*/
+.copyright {
+    display: flex;
+    justify-content: center;
+    background-color: #1E004E;
+    margin-top: 3rem;
+    text-align: center;  
+}
+
+.copyright h5 {
+    margin: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.brand {
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: #1E004E;
+    padding: .4rem;
+}
+
+.brand a {
+    font-size: 1rem;
+    color: crimson;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 425px) {
+.slides-hero {
+    width: 100vw;
+    height: 100vh;
+}
+
+.search-text {
+    font-size: 1.5rem;
+}
+}
+
+@media only screen and (max-width: 375px) {
+.search-text {
+    font-size: 1.3rem;
+}
+
+.icons {
+    margin-top: 4rem;
+}
+
+.icons .facebook {
+    font-size: 1.8rem;
+    margin: .8rem;
+}
+
+.icons .instagram {
+    font-size: 1.8rem;
+    margin: .8rem;
+}
+
+.icons .twitter {
+    font-size: 1.8rem;
+    margin: .8rem;
+}
+
+.icons .pinterest {
+    font-size: 1.8rem;
+    margin: .8rem;
+}
+}
+
+@media only screen and (max-width: 320px) {
+.search-text {
+    font-size: 1.1rem;
+}
+    
+.icons {
+    margin-top: 4rem;
+}
+    
+.icons .facebook {
+    font-size: 1.3rem;
+    margin: .5rem;
+    }
+    
+.icons .instagram {
+    font-size: 1.3rem;
+    margin: .5rem;
+}
+    
+.icons .twitter {
+    font-size: 1.3rem;
+    margin: .5rem;
+}
+    
+.icons .pinterest {
+    font-size: 1.3rem;
+    margin: .5rem;
+}
+
+.copyright {
+    margin-top: 2rem;
+}
+
+.copyright h5 {
+    margin: .5rem;
+    font-size: 0.8rem;
+}
+
+.brand {
+    font-size: .7rem;
+    padding: .3rem;
+}
+
+.brand a {
+    font-size: .7rem;
+    padding: .3rem;
+}
+}
+    

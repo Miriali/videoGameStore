@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <!--AOS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <!-- Styles CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <title>Haneul</title>
+</head>
+<body>
+    <!--Menu de Navegacion-->
+    <div class="navbar-fixed">
+      <nav class="navbar navbar-fixed">
+        <div class="nav-wrapper container">
+          <a href="#" class="brand-logo">Haneul</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#video-game">Video games</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#search"><i class="material-icons">search</i></a></li>
+            <li><a href="#">Sign In <i class="material-icons right">account_circle</i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <ul class="sidenav navbar" id="mobile-demo">
+      <li><a class="sidenav-close" href="#!"><i class="material-icons right white-text">close</i></a></li>
+          
+      <li><a href="#video-game" class="white-text">Video games</a></li>
+      <li><a href="#" class="white-text">Accessories</a></li>
+      <li><a href="#community" class="white-text">Community</a></li>
+      <li><a href="#" class="white-text"><i class="material-icons white-text">search</i></a></li>
+      <li><a href="#" class="white-text">Sign In <i class="material-icons right white-text">account_circle</i></a></li>
+    </ul>        
+    <!--Cierre menu de navegacion-->
+
+    <!--Carrousel-Hero-->
+    <div class="container section scrollspy" data-aos="fade-down" data-aos-duration="2000" id="video-game">
+      <div class="row">
+        <div class="col s12">
+          <div class="slider">
+            <ul class="slides">
+              <li>
+                <img class="responsive-img slides-hero hide-on-small-only" src="./Images/animal.jpg">
+                <img class="responsive-img slides-hero show-on-small" src="./Images/animal-peque.png">
+              </li>
+              <li>
+                <img class="responsive-img slides-hero hide-on-small-only" src="./Images/final-fantasy.jpg">
+                <img class="responsive-img slides-hero show-on-small" src="./Images/final-peque.jpg">
+              </li>
+              <li>
+                <img class="responsive-img slides-hero" src="./Images/fortnite.jpg">
+              </li>
+              <li>
+                <img class="responsive-img slides-hero hide-on-small-only" src="./Images/spiderman-hero.png">
+                <img class="responsive-img slides-hero show-on-small" src="./Images/spiderman-peque.jpg">
+              </li>
+              <li>
+                <img class="responsive-img slides-hero hide-on-small-only" src="./Images/assassins.jpg">
+                <img class="responsive-img slides-hero show-on-small" src="./Images/assassins-peque.jpg">
+              </li>
+              <li>
+                <img class="responsive-img slides-hero" src="./Images/punk.jpg">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--Cierre-->
+          
+      <!--Ofertas-->
+      <div class="row ofertas" data-aos="fade-down" data-aos-duration="2000">
+        <h5 class="center-align">Offers by categories</h5>
+          <!--Todas las ofertas-->
+          <div class="col s6 m3">
+            <div class="section center oferta">
+              <i class="medium material-icons center icon-oferta">shop</i>
+              <p>All offers</p>
+            </div>
+          </div>
+          <!--Ofertas Flash-->
+          <div class="col s6 m3">
+            <div class="section center oferta">
+              <i class="medium material-icons center icon-flash">flash_on</i>
+              <p>Flash offers</p>
+            </div>
+          </div>
+          <!--Videos-->
+          <div class="col s6 m3">
+            <div class="section center oferta">
+              <i class="medium material-icons center icon-game">videogame_asset</i>
+              <p>Video games</p>
+            </div>
+          </div>
+          <!--Cards-->
+          <div class="col s6 m3">
+            <div class="section center oferta">
+              <i class="medium material-icons center icon-gift">card_giftcard</i>
+              <p>Gift Cards</p>
+            </div>
+          </div>
+      </div>
+      <!--Cierre-->
+
+      <!--NEW ARRIVALS-->
+      <div class="section" data-aos="fade-left" data-aos-duration="2000">
+        <div class="row">
+          <h4 class="center black white-text title">NEW ARRIVALS</h4>
+            <!--Item-->
+            <div class="col s12 m4">
+              <div class="card hoverable">
+                <div class="card-image">
+                  <img 
+                      class="responsive-img" 
+                      src="./Images/Cyberpunk.jpg" 
+                      alt="Cyberpunk 2077"
+                  >
+                  <p class="card-text">Cyberpunk-2077 <span class="right pink-text">$59.99</span></p>
+                </div>
+              </div>
+            </div>
+            <!--Item-->
+            <div class="col s12 m4">
+              <div class="card hoverable">
+                <div class="card-image">
+                  <img 
+                      class="responsive-img" 
+                      src="./Images/last.jpg" 
+                      alt="The Last of Us Part II"
+                  >
+                  <p class="card-text">The Last of Us Part II <span class="right pink-text">$28.45</span></p>
+                </div>
+              </div>
+            </div>
+            <!--Item-->
+            <div class="col s12 m4">
+              <div class="card hoverable">
+                <div class="card-image">
+                  <img 
+                      class="responsive-img" 
+                      src="./Images/horizon.jpg" 
+                      alt="Horizon Zero Dawn"
+                  >
+                  <p class="card-text">Horizon Zero Dawn <span class="right pink-text">$40</span></p>
+                </div>
+              </div>
+            </div>
+            <!--Item-->
+            <div class="col s12 m4">
+              <div class="card hoverable">
+                <div class="card-image">
+                  <img 
+                      class="responsive-img" 
+                      src="./Images/avengers-card.jpg" 
+                      alt="Crusader Kings III"
+                  >
+                  <p class="card-text">Marvel's Avengers <span class="right pink-text">$29.99</span></p>
+                </div>
+              </div>
+            </div>
+            <!--Item-->
+            <div class="col s12 m4">
+              <div class="card hoverable">
+                <div class="card-image">
+                  <img 
+                      class="responsive-img" 
+                      src="./Images/Crusader.jpg" 
+                      alt="Crusader Kings III"
+                  >
+                  <p class="card-text">Crusader Kings III <span class="right pink-text">$39.99</span></p>
+                </div>
+              </div>
+            </div>
+            <!--Item-->
+            <div class="col s12 m4">
+              <div class="card hoverable">
+                <div class="card-image">
+                  <img 
+                      class="responsive-img" 
+                      src="./Images/half.jpg" 
+                      alt="Half-Life: Alyx"
+                  >
+                  <p class="card-text">Half-Life: Alyx  <span class="right pink-text">$34.99</span></p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!--Cierre-->
+      
+      <!--Search Section-->
+      <div class="center box-search scrollspy" id="community" data-aos="fade-up" data-aos-duration="2000">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 white-text">
+              <h5 class="search-text">Get the best offers in your inbox</h5>
+                <div class="input-field center">
+                  <input type="email" class="white grey-text autocomplete" placeholder="Enter your email">
+                  <a class="waves-effect waves-light btn white black-text">Submit</a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Cierre-->
+
+      <!--Best Sellers-->
+      <div class="carousel section" data-aos="fade-right" data-aos-duration="1200">
+        <div class="center white-text black title">
+          <h4>Best Sellers</h4>
+        </div>
+        <a class="carousel-item game" href="#">
+          <p class="black-text center">Marvel's Avengers</p>
+          <img src="./Images/Avengers.jpg">
+        </a>
+        <a class="carousel-item game" href="#">
+          <p class="black-text center">Splatoon 2</p>
+          <img src="./Images/splatoon.jpg">
+        </a>
+        <a class="carousel-item game" href="#">
+          <p class="black-text center">Super Mario 3D All-Stars</p>
+          <img src="./Images/mario.jpg">
+        </a>
+        <a class="carousel-item game" href="#">
+          <p class="black-text center">Red Dead Redemption 2</p>
+          <img src="./Images/red.jpg">
+        </a>
+        <a class="carousel-item game" href="#">
+          <p class="black-text center">FIFA 21 Standard Edition</p>
+          <img src="./Images/fifa.jpg">
+        </a>
+        <a class="carousel-item game" href="#">
+          <p class="black-text center">Ghost of Tsushima</p>
+          <img src="./Images/ghost.jpg">
+        </a>
+        <a class="carousel-item game" href="#">
+          <p class="black-text center">Assassin's Creed Valhalla</p>
+          <img src="./Images/assassins-game.jpg">
+        </a>
+        <a class="carousel-item game" href="#">
+          <p class="black-text center">Spider-Man: Miles Morales</p>
+          <img src="./Images/spiderman.jpg">
+        </a>
+      </div>
+      <!--Cierre-->
+
+      <!--Follow Us-->
+      <div class="row center">
+        <div class="icons">
+          <h5 class="white-text">Follow Us</h5>
+          <i class="fab fa-facebook-f facebook"></i>
+          <i class="fab fa-instagram instagram"></i>
+          <i class="fab fa-twitter twitter"></i>
+          <i class="fab fa-pinterest-p pinterest"></i>
+        </div>
+      </div>
+    </div>
+    <!--Cierre-->
+    
+      <!--Footer-->
+      <div class="copyright">
+        <h5 class="white-text">About</h5>
+        <h5 class="white-text">Jobs</h5>
+        <h5 class="white-text">Help</h5>
+        <h5 class="white-text">Terms of Service</p>
+        <h5 class="white-text">Privacy</h5>
+      </div>
+      <hr />
+      <p class="white-text center brand">© 2021 Haneul Corporation. All right reserved. Developed by <a href="https://github.com/Miriali" target="_blank">Miriali López ♥</a></p>
+      <!--Cierre-->
+  
+  <!--AOS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
