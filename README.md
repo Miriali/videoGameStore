@@ -1,14 +1,19 @@
 ## Video Game Store :video_game: :open_file_folder:
 Hello cute github community! :octocat:
 
-Here you can find the code for the main page of a video game store website, it was developed using materialize and it´s completely responsive, the design is simple and at the same time attractive and intuitive.
+Here you can find the code for the main page of a video game store website, it was developed using materialize and it is completely responsive, the design is simple and at the same time attractive and intuitive.
 
 ### Requirements
 Basic knowledge of:
+
 :star2: Html   
+
 :star2: Css  
+
 :star2: Javascript
+
 :star2: Materialize
+
 :star2: Responsive web design
 
 ### Screenshot
